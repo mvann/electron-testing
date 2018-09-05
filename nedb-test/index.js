@@ -1,4 +1,4 @@
-const db = require('./db/db.js');
+const db = require('./db');
 
 db.paths.find({}, (err, docs) => {
   if (err)
